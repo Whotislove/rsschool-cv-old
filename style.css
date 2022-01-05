@@ -1,4 +1,136 @@
-<style>
-.p {
-  background-color ="black";}
-</style>
+body {
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top right, rgb(153, 155, 155), rgb(12, 11, 12));
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: azure;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-right: 50px;
+  
+}
+
+
+.nav-link{
+  padding: 0 20px;
+  line-height: 40px;
+  text-decoration: none;
+  color:azure;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-color: rgb(37, 129, 131);
+
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: rgb(37, 129, 131);
+  border-bottom: 2px solid black;
+
+}
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.avatar{
+  width: 250px;
+  height: 350px;
+  border-radius: 20%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.name{
+  font-size: 30px;
+  color: azure;
+  text-transform: uppercase;
+  margin-right: 200px;
+  letter-spacing: 5px;
+  height: 25%;
+  width: 25%;
+  text-align:center;
+  font-weight: 1500;
+}
+.span{
+  font-size: medium;
+}
+.section-profile{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.section{
+  width: 50%;
+  margin-top: 30px;
+  border-bottom: 2px solid #000
+}
+.section-title{
+  font-size: 30px;
+  color: azure;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contacts{
+  text-decoration: none;
+}
+.title{
+  height: 40%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.code{
+  letter-spacing: 3px;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.footer {
+  height: 100%;
+  background-color: rgb(37, 129, 131);
+}
+.footer-bot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+.ico{
+  width: 120px;
+  height: 50px;
+  background-image: url(assets/img/rs_school_js.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
