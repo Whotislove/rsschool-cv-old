@@ -52,6 +52,8 @@ html {
   display: flex;
   width: 100%;
   justify-content: flex-end;
+  background-color: rgb(37, 129, 131);
+  border-bottom: 2px solid black;
 
 }
 .main-container{
@@ -64,6 +66,7 @@ html {
   height: 350px;
   border-radius: 20%;
   margin-left: 50px;
+  margin-top: 20px;
 }
 .name{
   font-size: 30px;
@@ -74,7 +77,6 @@ html {
   height: 25%;
   width: 25%;
   text-align:center;
-  background-color: rgb(37, 129, 131);
   font-weight: 1500;
 }
 .span{
@@ -103,7 +105,6 @@ html {
 }
 .title{
   height: 40%;
-  background-color: rgb(37, 129, 131);
 }
 @media (max-width: 768px) {
   .section {
